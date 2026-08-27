@@ -26,23 +26,28 @@ WebSearch les thèmes restés vides ou trop maigres.
 
 Sources fixes :
 - https://www.anthropic.com/news
-- https://openai.com/news/
 - https://deepmind.google/discover/blog/
 - https://simonwillison.net/
 - https://huggingface.co/papers
 - https://news.ycombinator.com/ — ne retenir que les items IA avec de la discussion
 
+⚠️ `openai.com/news` renvoie **403** à WebFetch (protection anti-bot). Ne pas le fetcher :
+passer par WebSearch avec `site:openai.com news` ou `OpenAI announcement this week`.
+
 Requêtes de secours :
 - `LLM release this week`
 - `AI agents framework announcement`
 - `inference cost breakthrough`
+- `OpenAI announcement this week`
 
 ## 🏗 Architecture logicielle
 
 Sources fixes :
 - https://martinfowler.com/
 - https://www.infoq.com/architecture-design/
-- https://www.thoughtworks.com/radar — trimestriel, ne bouge pas souvent
+
+`thoughtworks.com/radar` est trimestriel (Vol 34 = avril 2026). Inutile de le fetcher chaque
+jour : ne le consulter qu'en début de trimestre.
 
 Requêtes de secours :
 - `software architecture article this week`
@@ -52,14 +57,22 @@ Requêtes de secours :
 
 Sources fixes :
 - https://blog.cloudflare.com/
-- https://netflixtechblog.com/
-- https://stripe.com/blog/engineering
-- https://discord.com/category/engineering
-- https://highscalability.com/
+- https://stripe.dev/blog/topic/engineering
+
+⚠️ Sources retirées, vérifiées défaillantes au premier run :
+- `netflixtechblog.com` → **403** à WebFetch (Medium bloque les bots).
+- `highscalability.com` → contenu figé en 2024, le site ne publie plus.
+- `discord.com/category/engineering` → la page n'affiche aucune date de publication,
+  impossible d'appliquer le filtre 48h.
+- `stripe.com/blog/engineering` → redirige en 301 vers `stripe.dev/blog/topic/engineering`,
+  utiliser directement la cible.
+
+Ces trois premiers sont à couvrir par WebSearch.
 
 Requêtes de secours :
 - `engineering blog post-mortem outage`
 - `database scaling engineering blog`
+- `Netflix OR Discord engineering blog this week`
 
 ## 🛠 Dev / langages / craft
 
@@ -80,3 +93,7 @@ Noter ici ce qu'on ajoute ou retire, et pourquoi — pour ne pas réintroduire d
 source qu'on avait déjà jugée bruyante.
 
 - 2026-08-27 — liste initiale.
+- 2026-08-27 — premier run : retrait de `netflixtechblog.com` (403), `highscalability.com`
+  (mort depuis 2024) et `discord.com/category/engineering` (pas de dates) ; `openai.com/news`
+  passe en WebSearch (403) ; `stripe.com/blog/engineering` remplacé par sa cible de redirection ;
+  `thoughtworks.com/radar` sorti du passage quotidien (trimestriel).
