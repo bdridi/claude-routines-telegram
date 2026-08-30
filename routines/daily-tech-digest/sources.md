@@ -102,13 +102,27 @@ l'actualité. Elles ne relèvent pas du même régime que le reste du fichier.
 Un radar n'est pas une news : c'est un gisement. Le signaler une fois le jour de sa parution
 gâcherait 95% de son contenu. On l'**exploite progressivement** à la place.
 
-**Chaque jour**, piocher **2 à 3 entrées** encore non traitées dans l'édition courante — une
-seule source à la fois, épuisée avant de passer à la suivante.
+**Chaque jour**, piocher **2 à 3 entrées** encore non traitées dans **un seul radar**, en
+tournant d'un radar à l'autre d'un jour sur l'autre — **round robin**, dans l'ordre de la liste
+ci-dessous :
+
+1. ThoughtWorks Technology Radar
+2. CNCF Technology Landscape Radar
+3. InfoQ Trends Reports
+4. Gartner Hype Cycle for Agentic AI
+
+Pour savoir où on en est, regarder la **dernière date** du registre : le radar utilisé hier donne
+celui d'aujourd'hui. Un radar épuisé sort de la rotation, qui se resserre sur les autres.
 
 La cadence quotidienne n'est pas cosmétique. Un ThoughtWorks Radar compte ~100 blips : à 2-3 par
 semaine il faudrait ~40 semaines pour l'épuiser, soit plus qu'un semestre — l'édition suivante
-sortirait avant la fin et on n'aurait jamais fait le tour. En quotidien, c'est **5 à 7 semaines**,
-puis on enchaîne sur le radar suivant. Les quatre sources tiennent dans l'année.
+sortirait avant qu'on ait fait le tour.
+
+Le round robin ne ralentit pas l'épuisement : on consomme 2-3 entrées par jour quel que soit
+l'ordre. Le vivier des quatre radars fait ~200 entrées, soit **~11 semaines** pour tout parcourir.
+La rotation ne change que deux choses, et c'est pourquoi on la préfère : elle évite sept semaines
+d'affilée sur la même source, et elle garantit d'avoir touché aux quatre radars le jour où une
+nouvelle édition rebat les cartes.
 
 Ce qu'on retient d'une entrée : ce que c'est, pourquoi le radar la place là (*Adopt*, *Trial*,
 *Assess*, *Hold*), et ce que ça change concrètement. Une entrée en *Hold* vaut souvent mieux
@@ -215,3 +229,7 @@ source qu'on avait déjà jugée bruyante.
   suivante sort avant qu'on ait fait le tour. En quotidien : 5-7 semaines par radar, les quatre
   sources tiennent dans l'année. Rend le registre d'autant plus critique — la fenêtre de
   déduplication de 7 jours est désormais franchie en trois jours.
+- 2026-08-30 — passage en **round robin** entre les quatre radars, un par jour, au lieu d'un
+  épuisement séquentiel. La vitesse d'épuisement est identique (2-3 entrées/jour dans les deux
+  cas, ~11 semaines pour le vivier complet) : le gain est la variété quotidienne et la couverture
+  en largeur avant qu'une nouvelle édition ne sorte.

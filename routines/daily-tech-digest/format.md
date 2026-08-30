@@ -44,11 +44,41 @@ digest. Le supprimer plutôt que de le meubler.
 section dédiée de `sources.md`) et se place en dernier.
 
 Ces entrées ne sont pas de l'actualité. Pour chacune : le nom, la position du radar
-(*Adopt* / *Trial* / *Assess* / *Hold*), ce que c'est, et pourquoi le radar la place là. Une
-entrée en *Hold* vaut souvent mieux qu'une en *Adopt* : elle dit ce qu'il faut arrêter de faire.
+(*Adopt* / *Trial* / *Assess* / *Hold*), **puis une ligne d'explication**. Une entrée en *Hold*
+vaut souvent mieux qu'une en *Adopt* : elle dit ce qu'il faut arrêter de faire.
+
+**La ligne d'explication n'est pas optionnelle.** Sans elle, l'entrée n'a aucune valeur : le nom
+et la position ne disent pas *pourquoi*, et obligent à ouvrir le radar — exactement ce que le
+digest doit éviter.
+
+❌ Insuffisant, à ne pas reproduire :
+
+```
+📡 <b>Radar — ThoughtWorks Vol 34</b>
+• MCP par défaut — Hold
+• Instructions d'agent qui s'accumulent — Hold
+```
+
+✅ Attendu :
+
+```
+📡 <b>Radar — ThoughtWorks Vol 34</b>
+• <b>MCP par défaut</b> — Hold
+  Brancher un serveur MCP là où un appel d'outil simple suffirait. Le radar
+  déconseille d'en faire le réflexe : la couche de protocole coûte plus qu'elle
+  ne rapporte tant qu'il n'y a qu'un seul client.
+• <b>Instructions d'agent qui s'accumulent</b> — Hold
+  Les fichiers de consignes grossissent à chaque incident et personne n'enlève
+  jamais rien. Au-delà d'un certain volume l'agent les suit moins bien — le
+  radar recommande de les tailler régulièrement.
+```
+
+Si tu ne sais pas expliquer une entrée, ne la retiens pas : prends-en une autre. La marquer
+traitée dans le registre sans l'avoir expliquée la gâche définitivement, elle ne repassera plus.
 
 L'édition figure dans l'en-tête de section, pas sur chaque ligne :
-`📡 <b>Radar — ThoughtWorks Vol 34</b>`.
+`📡 <b>Radar — ThoughtWorks Vol 34</b>`. **Un seul radar par jour** — la rotation entre les
+quatre est décrite dans `sources.md`.
 
 Les jours où plus aucune entrée n'est disponible — édition épuisée, aucune nouvelle parue — la
 section est absente. On ne recycle pas pour meubler.
