@@ -27,5 +27,10 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 
 ## Éditions
 
-*Aucune section pour l'instant. La première sera créée au premier lundi d'exploitation,
-par l'agent, une fois qu'il aura identifié l'édition courante de la source qu'il attaque.*
+## ThoughtWorks Technology Radar — Vol 34 (paru en avril 2026)
+
+- 2026-08-30 — MCP par défaut — Hold
+- 2026-08-30 — Instructions partagées et versionnées pour les équipes — Adopt
+- 2026-08-30 — Instructions d'agent qui s'accumulent — Hold
+
+Statut : en cours
