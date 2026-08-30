@@ -102,10 +102,13 @@ l'actualité. Elles ne relèvent pas du même régime que le reste du fichier.
 Un radar n'est pas une news : c'est un gisement. Le signaler une fois le jour de sa parution
 gâcherait 95% de son contenu. On l'**exploite progressivement** à la place.
 
-**Chaque lundi** (jour UTC du run), piocher **2 à 3 entrées** encore non traitées dans l'édition
-courante de chaque radar — en pratique une seule source par semaine, en tournant entre elles.
-Semaine après semaine, on finit par parcourir l'essentiel du radar avant que l'édition suivante
-ne sorte.
+**Chaque jour**, piocher **2 à 3 entrées** encore non traitées dans l'édition courante — une
+seule source à la fois, épuisée avant de passer à la suivante.
+
+La cadence quotidienne n'est pas cosmétique. Un ThoughtWorks Radar compte ~100 blips : à 2-3 par
+semaine il faudrait ~40 semaines pour l'épuiser, soit plus qu'un semestre — l'édition suivante
+sortirait avant la fin et on n'aurait jamais fait le tour. En quotidien, c'est **5 à 7 semaines**,
+puis on enchaîne sur le radar suivant. Les quatre sources tiennent dans l'année.
 
 Ce qu'on retient d'une entrée : ce que c'est, pourquoi le radar la place là (*Adopt*, *Trial*,
 *Assess*, *Hold*), et ce que ça change concrètement. Une entrée en *Hold* vaut souvent mieux
@@ -119,9 +122,11 @@ Ignorer ce qui est purement écosystème cloud/infra sans lien avec la façon de
 
 ### Le registre — indispensable
 
-La déduplication ordinaire ne regarde que les **7 derniers digests**. Elle est aveugle au-delà
-d'une semaine, alors qu'on exploite un radar sur plusieurs mois. Sans registre, les mêmes entrées
-reviendraient en boucle.
+La déduplication ordinaire ne regarde que les **7 derniers digests**. À 2-3 entrées par jour,
+cette fenêtre est franchie en trois jours : tout ce qui a été traité il y a plus d'une semaine
+redevient invisible et serait réémis. Sur un cycle d'exploitation de plusieurs mois, le registre
+est **la seule mémoire réelle** — sans lui, le mécanisme tourne en rond sans jamais signaler
+d'erreur.
 
 Le registre vit sur la branche `state`, à côté des archives :
 
@@ -129,7 +134,7 @@ Le registre vit sur la branche `state`, à côté des archives :
 routines/daily-tech-digest/radar-ledger.md
 ```
 
-Protocole, chaque lundi :
+Protocole, à chaque run :
 
 1. **Lire** `radar-ledger.md` — il liste, par édition, les entrées déjà traitées.
 2. **Choisir** 2 à 3 entrées qui n'y figurent pas.
@@ -142,11 +147,11 @@ parution.
 
 **Édition épuisée** — toutes les entrées intéressantes traitées : le noter dans le registre et
 passer au radar suivant. Ne jamais recycler une entrée pour meubler ; s'il ne reste rien nulle
-part, la section 📡 est simplement absente ce lundi-là.
+part, la section 📡 est simplement absente ce jour-là.
 
 **Nouvelle édition** — ouvrir une nouvelle section dans le registre et repartir de zéro dessus.
 L'ancienne section reste en place, comme trace. Le jour où une nouvelle édition paraît, l'annoncer
-en tant que telle, puis reprendre l'exploitation les lundis suivants.
+en tant que telle, puis reprendre l'exploitation dès le lendemain.
 
 ### Les sources
 
@@ -172,8 +177,8 @@ en tant que telle, puis reprendre l'exploitation les lundis suivants.
 - **awesome-generative-ai-guide — RAG research table** —
   https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/research_updates/rag_research_table.md
   Mise à jour **continue**, contrairement aux quatre autres : c'est un suivi de papers RAG et
-  agentic RAG, pas un rapport. Elle échappe donc à la logique d'exploitation par édition — pas de
-  registre, pas de règle du lundi. À consulter n'importe quel jour où le thème IA manque de
+  agentic RAG, pas un rapport. Elle échappe donc à la logique d'exploitation par édition : pas
+  d'édition, pas de registre, rien à épuiser. À consulter les jours où le thème IA manque de
   matière, en ne retenant qu'un papier réellement nouveau et marquant. Fetcher l'URL
   `raw.githubusercontent.com` correspondante plutôt que la page GitHub.
 
@@ -205,3 +210,8 @@ source qu'on avait déjà jugée bruyante.
   2-3 entrées par lundi jusqu'à épuisement de l'édition. Nécessite un registre persistant
   (`radar-ledger.md` sur `state`), la déduplication à 7 jours étant aveugle sur un cycle de
   plusieurs mois.
+- 2026-08-30 — exploitation des radars **quotidienne** au lieu d'hebdomadaire. Motif chiffré :
+  ~100 blips par édition, à 2-3/semaine il faut ~40 semaines soit plus qu'un semestre, l'édition
+  suivante sort avant qu'on ait fait le tour. En quotidien : 5-7 semaines par radar, les quatre
+  sources tiennent dans l'année. Rend le registre d'autant plus critique — la fenêtre de
+  déduplication de 7 jours est désormais franchie en trois jours.
