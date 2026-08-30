@@ -6,6 +6,11 @@ est collecté, on édite ce fichier sur `main`.
 Stratégie **hybride** : on passe d'abord sur les sources fixes de chaque thème, puis on comble avec
 WebSearch les thèmes restés vides ou trop maigres.
 
+Deux régimes cohabitent :
+- les **sources quotidiennes** (ci-dessous par thème), soumises au filtre 48h ;
+- les **radars et rapports de tendances** (section dédiée en fin de fichier), périodiques, qui
+  suivent leurs propres règles — ils ne sont pas consultés tous les jours.
+
 ---
 
 ## Règles de sélection
@@ -46,8 +51,8 @@ Sources fixes :
 - https://martinfowler.com/
 - https://www.infoq.com/architecture-design/
 
-`thoughtworks.com/radar` est trimestriel (Vol 34 = avril 2026). Inutile de le fetcher chaque
-jour : ne le consulter qu'en début de trimestre.
+`thoughtworks.com/radar` a migré vers la section **Radars & rapports de tendances** en fin de
+fichier — il est semestriel, il n'a rien à faire dans le passage quotidien.
 
 Requêtes de secours :
 - `software architecture article this week`
@@ -87,6 +92,64 @@ Requêtes de secours :
 
 ---
 
+## 📡 Radars & rapports de tendances
+
+Sources **périodiques** (semestrielles à annuelles) qui cadrent le paysage plutôt que d'annoncer
+l'actualité. Elles ne relèvent pas du même régime que le reste du fichier.
+
+### Règles propres à cette section
+
+- **Ne pas les fetcher tous les jours.** Elles ne bougent que quelques fois par an ; les
+  interroger quotidiennement ne produirait que du « rien de neuf » et gaspillerait le run.
+  → **Les vérifier le lundi uniquement** (jour UTC du run).
+- **Le filtre 48h porte sur la parution de l'édition, pas sur son contenu.** Un radar publié
+  avant-hier est éligible même si le fond couvre les douze derniers mois.
+- **Une édition déjà signalée ne repasse jamais** : vérifier les `digests/` avant d'inclure.
+  Un radar publié une fois est mentionné une fois.
+- **Quand une nouvelle édition paraît, elle prime** : elle vaut mieux qu'un article quelconque
+  du jour, et peut occuper deux items du digest si le contenu le justifie.
+- **Angle de lecture** : ce qui est passé en *Adopt* ou en *Hold*, et ce qui touche
+  agents / harness / RAG / orchestration. Pas le catalogue complet.
+- **Rien de neuf le lundi = section muette.** Ne jamais republier une édition ancienne pour
+  meubler.
+
+### Les sources
+
+- **ThoughtWorks Technology Radar** — https://www.thoughtworks.com/radar
+  Semestriel. La référence sur techniques / tools / platforms / languages. Le quadrant
+  **Techniques** est le plus pertinent ici (agents, harness, RAG).
+
+- **CNCF Technology Landscape Radar** — https://www.cncf.io/reports/cncf-technology-landscape-radar/
+  Trimestriel, adossé à un sondage de 300+ développeurs. Couvre l'inference IA, l'orchestration
+  ML et les plateformes agentiques.
+
+- **InfoQ Trends Reports** — https://www.infoq.com/infoq-trends-report/
+  Annuel, en plusieurs éditions échelonnées dans l'année (AI/ML/Data Engineering,
+  Culture & Methods, Cloud/DevOps). Modèle « crossing the chasm ». Surveiller surtout
+  l'édition AI/ML.
+
+- **Gartner Hype Cycle for Agentic AI** — https://www.gartner.com/en/articles/hype-cycle-for-agentic-ai
+  Annuel. Vue analyste sur la maturité, la gouvernance et les coûts des agents.
+  ⚠️ Le rapport complet est payant — la règle « pas de paywall dur » s'applique. S'en tenir aux
+  synthèses publiques (article Gartner en accès libre, communiqué de presse, reprises presse) et
+  ne jamais lier vers une page qui exige un compte.
+
+- **awesome-generative-ai-guide — RAG research table** —
+  https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/research_updates/rag_research_table.md
+  Mise à jour **continue**, contrairement aux quatre autres : c'est un suivi de papers RAG et
+  agentic RAG, pas un rapport. Exception à la règle du lundi — peut être consulté n'importe quel
+  jour où le thème IA manque de matière. Fetcher l'URL `raw.githubusercontent.com` correspondante
+  plutôt que la page GitHub, et ne retenir qu'un papier réellement nouveau et marquant.
+
+### Requêtes de secours
+
+- `ThoughtWorks Technology Radar new volume`
+- `CNCF technology radar report`
+- `InfoQ trends report AI ML`
+- `Gartner hype cycle agentic AI`
+
+---
+
 ## Journal d'affinage
 
 Noter ici ce qu'on ajoute ou retire, et pourquoi — pour ne pas réintroduire dans six mois une
@@ -97,3 +160,8 @@ source qu'on avait déjà jugée bruyante.
   (mort depuis 2024) et `discord.com/category/engineering` (pas de dates) ; `openai.com/news`
   passe en WebSearch (403) ; `stripe.com/blog/engineering` remplacé par sa cible de redirection ;
   `thoughtworks.com/radar` sorti du passage quotidien (trimestriel).
+- 2026-08-30 — ajout d'une section **Radars & rapports de tendances** (ThoughtWorks, CNCF, InfoQ
+  Trends, Gartner Hype Cycle agentic AI, RAG research table). Ces sources sont périodiques et
+  incompatibles avec le filtre 48h appliqué tel quel : elles sont donc vérifiées **le lundi
+  seulement**, avec le filtre portant sur la date de parution de l'édition. `thoughtworks.com/radar`
+  y est déplacé depuis le thème Archi (et corrigé : semestriel, pas trimestriel).
