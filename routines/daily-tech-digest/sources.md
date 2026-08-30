@@ -97,21 +97,56 @@ Requêtes de secours :
 Sources **périodiques** (semestrielles à annuelles) qui cadrent le paysage plutôt que d'annoncer
 l'actualité. Elles ne relèvent pas du même régime que le reste du fichier.
 
-### Règles propres à cette section
+### Comment on les exploite
 
-- **Ne pas les fetcher tous les jours.** Elles ne bougent que quelques fois par an ; les
-  interroger quotidiennement ne produirait que du « rien de neuf » et gaspillerait le run.
-  → **Les vérifier le lundi uniquement** (jour UTC du run).
-- **Le filtre 48h porte sur la parution de l'édition, pas sur son contenu.** Un radar publié
-  avant-hier est éligible même si le fond couvre les douze derniers mois.
-- **Une édition déjà signalée ne repasse jamais** : vérifier les `digests/` avant d'inclure.
-  Un radar publié une fois est mentionné une fois.
-- **Quand une nouvelle édition paraît, elle prime** : elle vaut mieux qu'un article quelconque
-  du jour, et peut occuper deux items du digest si le contenu le justifie.
-- **Angle de lecture** : ce qui est passé en *Adopt* ou en *Hold*, et ce qui touche
-  agents / harness / RAG / orchestration. Pas le catalogue complet.
-- **Rien de neuf le lundi = section muette.** Ne jamais republier une édition ancienne pour
-  meubler.
+Un radar n'est pas une news : c'est un gisement. Le signaler une fois le jour de sa parution
+gâcherait 95% de son contenu. On l'**exploite progressivement** à la place.
+
+**Chaque lundi** (jour UTC du run), piocher **2 à 3 entrées** encore non traitées dans l'édition
+courante de chaque radar — en pratique une seule source par semaine, en tournant entre elles.
+Semaine après semaine, on finit par parcourir l'essentiel du radar avant que l'édition suivante
+ne sorte.
+
+Ce qu'on retient d'une entrée : ce que c'est, pourquoi le radar la place là (*Adopt*, *Trial*,
+*Assess*, *Hold*), et ce que ça change concrètement. Une entrée en *Hold* vaut souvent mieux
+qu'une entrée en *Adopt* : elle dit ce qu'il faut arrêter de faire.
+
+**Priorité de sélection**, dans cet ordre :
+1. Ce qui touche **agents, harness, RAG, orchestration LLM**.
+2. Ce qui est en *Adopt* ou en *Hold* — les positions tranchées.
+3. Ce qui contredit une pratique répandue.
+Ignorer ce qui est purement écosystème cloud/infra sans lien avec la façon de construire.
+
+### Le registre — indispensable
+
+La déduplication ordinaire ne regarde que les **7 derniers digests**. Elle est aveugle au-delà
+d'une semaine, alors qu'on exploite un radar sur plusieurs mois. Sans registre, les mêmes entrées
+reviendraient en boucle.
+
+Le registre vit sur la branche `state`, à côté des archives :
+
+```
+routines/daily-tech-digest/radar-ledger.md
+```
+
+Protocole, chaque lundi :
+
+1. **Lire** `radar-ledger.md` — il liste, par édition, les entrées déjà traitées.
+2. **Choisir** 2 à 3 entrées qui n'y figurent pas.
+3. **Écrire** le digest normalement.
+4. **Après envoi confirmé**, ajouter les entrées traitées au registre et le commiter
+   **dans le même commit que le digest du jour**.
+
+Si une édition n'a pas encore de section dans le registre, la créer avec son nom et sa date de
+parution.
+
+**Édition épuisée** — toutes les entrées intéressantes traitées : le noter dans le registre et
+passer au radar suivant. Ne jamais recycler une entrée pour meubler ; s'il ne reste rien nulle
+part, la section 📡 est simplement absente ce lundi-là.
+
+**Nouvelle édition** — ouvrir une nouvelle section dans le registre et repartir de zéro dessus.
+L'ancienne section reste en place, comme trace. Le jour où une nouvelle édition paraît, l'annoncer
+en tant que telle, puis reprendre l'exploitation les lundis suivants.
 
 ### Les sources
 
@@ -137,9 +172,10 @@ l'actualité. Elles ne relèvent pas du même régime que le reste du fichier.
 - **awesome-generative-ai-guide — RAG research table** —
   https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/research_updates/rag_research_table.md
   Mise à jour **continue**, contrairement aux quatre autres : c'est un suivi de papers RAG et
-  agentic RAG, pas un rapport. Exception à la règle du lundi — peut être consulté n'importe quel
-  jour où le thème IA manque de matière. Fetcher l'URL `raw.githubusercontent.com` correspondante
-  plutôt que la page GitHub, et ne retenir qu'un papier réellement nouveau et marquant.
+  agentic RAG, pas un rapport. Elle échappe donc à la logique d'exploitation par édition — pas de
+  registre, pas de règle du lundi. À consulter n'importe quel jour où le thème IA manque de
+  matière, en ne retenant qu'un papier réellement nouveau et marquant. Fetcher l'URL
+  `raw.githubusercontent.com` correspondante plutôt que la page GitHub.
 
 ### Requêtes de secours
 
@@ -165,3 +201,7 @@ source qu'on avait déjà jugée bruyante.
   incompatibles avec le filtre 48h appliqué tel quel : elles sont donc vérifiées **le lundi
   seulement**, avec le filtre portant sur la date de parution de l'édition. `thoughtworks.com/radar`
   y est déplacé depuis le thème Archi (et corrigé : semestriel, pas trimestriel).
+- 2026-08-30 — les radars passent d'un signalement ponctuel à une **exploitation progressive** :
+  2-3 entrées par lundi jusqu'à épuisement de l'édition. Nécessite un registre persistant
+  (`radar-ledger.md` sur `state`), la déduplication à 7 jours étant aveugle sur un cycle de
+  plusieurs mois.

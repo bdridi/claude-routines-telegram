@@ -25,10 +25,15 @@ Un **seul** message Telegram par jour, envoyé avec `parse_mode=HTML` et
 • <a href="URL">Titre court</a> — une phrase de contexte.
 ```
 
-La section **📡 Radar** n'apparaît que les jours où un nouveau radar ou rapport de tendances vient
-de paraître (voir la section dédiée de `sources.md`) — c'est-à-dire quelques fois par an. Elle se
-place en dernier et, ces jours-là, mérite deux lignes plutôt qu'une : ce qui est passé en *Adopt*
-ou en *Hold*, et ce que ça change.
+La section **📡 Radar** est **hebdomadaire, le lundi**. Elle porte 2 à 3 entrées piochées dans un
+radar en cours d'exploitation (voir la section dédiée de `sources.md`), et se place en dernier.
+
+Ces entrées ne sont pas de l'actualité : chacune mérite deux lignes plutôt qu'une — ce que c'est,
+la position du radar (*Adopt* / *Trial* / *Assess* / *Hold*), et ce que ça change en pratique.
+Mentionner l'édition dont elles sortent, par exemple `— ThoughtWorks Radar Vol 34`.
+
+Les autres jours, la section est absente. Le lundi où plus aucune entrée n'est disponible, elle
+est absente aussi : on ne recycle pas pour meubler.
 
 ## Règles de rédaction
 
