@@ -34,3 +34,11 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-08-30 — Instructions d'agent qui s'accumulent — Hold
 
 Statut : en cours
+
+## CNCF Technology Landscape Radar — Q3 2025 (paru le 2025-11-11)
+
+- 2026-08-31 — Model Context Protocol (MCP) — Adopt
+- 2026-08-31 — Llama Stack — Adopt
+- 2026-08-31 — kagent — Assess
+
+Statut : en cours
