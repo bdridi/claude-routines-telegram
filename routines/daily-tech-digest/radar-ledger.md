@@ -42,3 +42,11 @@ Statut : en cours
 - 2026-08-31 — kagent — Assess
 
 Statut : en cours
+
+## InfoQ AI, ML and Data Engineering Trends Report — édition 2025 (paru le 2025-09-24)
+
+- 2026-09-01 — AI Agents — Innovators
+- 2026-09-01 — Retrieval Augmented Generation (RAG) — Early Adopters
+- 2026-09-01 — Model Context Protocol (MCP) — Innovators
+
+Statut : en cours
