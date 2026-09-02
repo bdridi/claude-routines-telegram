@@ -50,3 +50,10 @@ Statut : en cours
 - 2026-09-01 — Model Context Protocol (MCP) — Innovators
 
 Statut : en cours
+
+## Gartner Hype Cycle for Agentic AI — édition inaugurale (paru le 2026-04-02)
+
+- 2026-09-02 — AI Agent Development Platforms — Peak of Inflated Expectations
+- 2026-09-02 — Model Context Protocol (MCP) — Peak of Inflated Expectations
+
+Statut : en cours
