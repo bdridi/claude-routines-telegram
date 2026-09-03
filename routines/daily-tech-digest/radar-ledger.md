@@ -32,6 +32,9 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-08-30 — MCP par défaut — Hold
 - 2026-08-30 — Instructions partagées et versionnées pour les équipes — Adopt
 - 2026-08-30 — Instructions d'agent qui s'accumulent — Hold
+- 2026-09-03 — Agent Skills — Trial
+- 2026-09-03 — OpenSpec — Assess
+- 2026-09-03 — Ralph loop — Assess
 
 Statut : en cours
 
