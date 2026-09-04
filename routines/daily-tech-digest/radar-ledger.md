@@ -43,6 +43,9 @@ Statut : en cours
 - 2026-08-31 — Model Context Protocol (MCP) — Adopt
 - 2026-08-31 — Llama Stack — Adopt
 - 2026-08-31 — kagent — Assess
+- 2026-09-04 — NVIDIA Triton — Adopt
+- 2026-09-04 — Airflow — Adopt
+- 2026-09-04 — BentoML — Adopt (inférence) / Trial (orchestration)
 
 Statut : en cours
 
