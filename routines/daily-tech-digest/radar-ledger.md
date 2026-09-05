@@ -54,6 +54,9 @@ Statut : en cours
 - 2026-09-01 — AI Agents — Innovators
 - 2026-09-01 — Retrieval Augmented Generation (RAG) — Early Adopters
 - 2026-09-01 — Model Context Protocol (MCP) — Innovators
+- 2026-09-05 — AI DevOps — Innovators
+- 2026-09-05 — Reasoning Models — Innovators
+- 2026-09-05 — Vector Databases — Early Majority
 
 Statut : en cours
 
