@@ -64,5 +64,6 @@ Statut : en cours
 
 - 2026-09-02 — AI Agent Development Platforms — Peak of Inflated Expectations
 - 2026-09-02 — Model Context Protocol (MCP) — Peak of Inflated Expectations
+- 2026-09-06 — AI SOC Agents — Peak of Inflated Expectations
 
 Statut : en cours
