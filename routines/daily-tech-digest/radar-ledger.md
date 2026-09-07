@@ -35,6 +35,9 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-09-03 — Agent Skills — Trial
 - 2026-09-03 — OpenSpec — Assess
 - 2026-09-03 — Ralph loop — Assess
+- 2026-09-07 — Coding agent swarms — Hold
+- 2026-09-07 — Ignoring durability in agent workflows — Hold
+- 2026-09-07 — Role-based contextual isolation in RAG — Assess
 
 Statut : en cours
 
