@@ -49,6 +49,9 @@ Statut : en cours
 - 2026-09-04 — NVIDIA Triton — Adopt
 - 2026-09-04 — Airflow — Adopt
 - 2026-09-04 — BentoML — Adopt (inférence) / Trial (orchestration)
+- 2026-09-08 — Metaflow — Adopt
+- 2026-09-08 — DeepSpeed — Adopt
+- 2026-09-08 — Argo Workflows — Trial
 
 Statut : en cours
 
