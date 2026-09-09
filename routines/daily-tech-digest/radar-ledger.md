@@ -63,6 +63,9 @@ Statut : en cours
 - 2026-09-05 — AI DevOps — Innovators
 - 2026-09-05 — Reasoning Models — Innovators
 - 2026-09-05 — Vector Databases — Early Majority
+- 2026-09-09 — Physical AI — Innovators
+- 2026-09-09 — Language Model Innovations — Early Adopters
+- 2026-09-09 — Human Computer Interaction (HCI) — Innovators
 
 Statut : en cours
 
