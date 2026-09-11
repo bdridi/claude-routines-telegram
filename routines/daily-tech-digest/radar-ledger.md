@@ -38,6 +38,9 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-09-07 — Coding agent swarms — Hold
 - 2026-09-07 — Ignoring durability in agent workflows — Hold
 - 2026-09-07 — Role-based contextual isolation in RAG — Assess
+- 2026-09-11 — Context engineering — Adopt
+- 2026-09-11 — Zero trust architecture — Adopt
+- 2026-09-11 — Coding throughput as a measure of productivity — Hold
 
 Statut : en cours
 
