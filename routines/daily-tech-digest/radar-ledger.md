@@ -55,6 +55,9 @@ Statut : en cours
 - 2026-09-08 — Metaflow — Adopt
 - 2026-09-08 — DeepSpeed — Adopt
 - 2026-09-08 — Argo Workflows — Trial
+- 2026-09-12 — Kubeflow — Trial
+- 2026-09-12 — Seldon Core — Assess
+- 2026-09-12 — Flyte — Assess
 
 Statut : en cours
 
