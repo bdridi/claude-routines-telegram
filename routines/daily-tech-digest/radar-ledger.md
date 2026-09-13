@@ -72,6 +72,9 @@ Statut : en cours
 - 2026-09-09 — Physical AI — Innovators
 - 2026-09-09 — Language Model Innovations — Early Adopters
 - 2026-09-09 — Human Computer Interaction (HCI) — Innovators
+- 2026-09-13 — Multi-modal Language Models — Innovators
+- 2026-09-13 — Synthetic Data — Early Majority
+- 2026-09-13 — AutoML — Early Adopters
 
 Statut : en cours
 
