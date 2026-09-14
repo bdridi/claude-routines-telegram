@@ -86,5 +86,7 @@ Statut : en cours
 - 2026-09-10 — Multi-agent orchestration — Peak of Inflated Expectations
 - 2026-09-10 — Autonomous coding agents — Peak of Inflated Expectations
 - 2026-09-10 — Swarm intelligence — Innovation Trigger
+- 2026-09-14 — AI-to-AI negotiation — Innovation Trigger
+- 2026-09-14 — Neural symbolic AI agents — Innovation Trigger
 
 Statut : en cours
