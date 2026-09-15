@@ -41,6 +41,9 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-09-11 — Context engineering — Adopt
 - 2026-09-11 — Zero trust architecture — Adopt
 - 2026-09-11 — Coding throughput as a measure of productivity — Hold
+- 2026-09-15 — Sandboxed execution for coding agents — Trial
+- 2026-09-15 — Feedback sensors for coding agents — Trial
+- 2026-09-15 — AI-accelerated shadow IT — Caution
 
 Statut : en cours
 
