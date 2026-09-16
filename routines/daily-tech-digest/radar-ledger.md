@@ -61,6 +61,8 @@ Statut : en cours
 - 2026-09-12 — Kubeflow — Trial
 - 2026-09-12 — Seldon Core — Assess
 - 2026-09-12 — Flyte — Assess
+- 2026-09-16 — agentgateway — Trial
+- 2026-09-16 — TensorFlow Serving — Adopt
 
 Statut : en cours
 
