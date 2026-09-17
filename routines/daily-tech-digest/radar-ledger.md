@@ -80,6 +80,8 @@ Statut : en cours
 - 2026-09-13 — Multi-modal Language Models — Innovators
 - 2026-09-13 — Synthetic Data — Early Majority
 - 2026-09-13 — AutoML — Early Adopters
+- 2026-09-17 — MLOps — Early Majority
+- 2026-09-17 — Distributed computation (Storm) — Late Majority
 
 Statut : en cours
 
