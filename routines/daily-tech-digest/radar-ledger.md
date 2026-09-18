@@ -44,6 +44,9 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-09-15 — Sandboxed execution for coding agents — Trial
 - 2026-09-15 — Feedback sensors for coding agents — Trial
 - 2026-09-15 — AI-accelerated shadow IT — Caution
+- 2026-09-18 — Codebase cognitive debt — Caution
+- 2026-09-18 — Feedback flywheel — Assess
+- 2026-09-18 — Team of coding agents — Assess
 
 Statut : en cours
 
@@ -96,4 +99,11 @@ Statut : en cours
 - 2026-09-14 — AI-to-AI negotiation — Innovation Trigger
 - 2026-09-14 — Neural symbolic AI agents — Innovation Trigger
 
-Statut : en cours
+Statut : épuisé le 2026-09-18 — les sources publiques accessibles (institutepm.com, xpander.ai ;
+le rapport complet Gartner reste payant) ne couvrent que 13 des 27 innovations du rapport, avec
+position par ring vérifiable. Les 8 ci-dessus les épuisent entièrement (Innovation Trigger et
+Peak of Inflated Expectations au complet) ; les 5 restantes (First-generation AI copilots, Basic
+task automation agents, Process-specific AI assistants, AI-augmented decision support, Document
+AI / AI-powered search / Predictive analytics) avaient déjà été écartées les 2026-09-10 et
+2026-09-14 pour position contradictoire selon les sources ou absence de lien avec agents/harness,
+non re-vérifiées différemment le 2026-09-18. Rotation resserrée sur les trois radars restants.
