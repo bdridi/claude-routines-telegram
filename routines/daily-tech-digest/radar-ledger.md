@@ -87,8 +87,12 @@ Statut : en cours
 - 2026-09-13 — AutoML — Early Adopters
 - 2026-09-17 — MLOps — Early Majority
 - 2026-09-17 — Distributed computation (Storm) — Late Majority
+- 2026-09-20 — Lakehouses — Late Majority
+- 2026-09-20 — Stream Processing — Late Majority
 
-Statut : en cours
+Statut : épuisé le 2026-09-20 — les 16 technologies listées par l'article source (7 Innovators,
+3 Early Adopters, 3 Early Majority, 3 Late Majority) sont désormais toutes traitées. Rotation
+resserrée sur les deux radars restants (ThoughtWorks, CNCF).
 
 ## Gartner Hype Cycle for Agentic AI — édition inaugurale (paru le 2026-04-02)
 
