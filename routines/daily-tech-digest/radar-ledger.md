@@ -47,6 +47,9 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-09-18 — Codebase cognitive debt — Caution
 - 2026-09-18 — Feedback flywheel — Assess
 - 2026-09-18 — Team of coding agents — Assess
+- 2026-09-21 — Structured output from LLMs — Adopt
+- 2026-09-21 — Code intelligence as agentic tooling — Assess
+- 2026-09-21 — Measuring collaboration quality with coding agents — Assess
 
 Statut : en cours
 
