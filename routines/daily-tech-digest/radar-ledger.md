@@ -71,6 +71,9 @@ Statut : en cours
 - 2026-09-16 — TensorFlow Serving — Adopt
 - 2026-09-19 — Agent2Agent (A2A) — Trial
 - 2026-09-19 — Adlik — Trial
+- 2026-09-22 — LangChain — Hold
+- 2026-09-22 — crewAI — Hold
+- 2026-09-22 — Haystack — Trial
 
 Statut : en cours
 
