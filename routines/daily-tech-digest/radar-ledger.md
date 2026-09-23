@@ -50,6 +50,8 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-09-21 — Structured output from LLMs — Adopt
 - 2026-09-21 — Code intelligence as agentic tooling — Assess
 - 2026-09-21 — Measuring collaboration quality with coding agents — Assess
+- 2026-09-23 — Skills as executable onboarding documentation — Assess
+- 2026-09-23 — Toxic flow analysis for AI — Assess
 
 Statut : en cours
 
