@@ -76,8 +76,20 @@ Statut : en cours
 - 2026-09-22 — LangChain — Hold
 - 2026-09-22 — crewAI — Hold
 - 2026-09-22 — Haystack — Trial
+- 2026-09-24 — autogen — Trial
+- 2026-09-24 — kgateway — Assess
 
-Statut : en cours
+Statut : épuisé le 2026-09-24 — la catégorie Agentic AI Platforms, Projects, and Systems du rapport
+(MCP, Llama Stack, Agent2Agent, agentgateway, kagent, kgateway, LangChain, crewAI, Haystack, autogen)
+est désormais intégralement traitée, confirmé par lecture complète du texte du rapport PDF (extraction
+réussie via pymupdf le 24/09, après plusieurs tentatives infructueuses par d'autres bibliothèques). Les
+catégories AI Inferencing Tools/Engines et ML Orchestration Tools listent une dizaine d'autres
+technologies (LMCache, Ray, kserve, llama.cpp, KAITO, Envoy AI Gateway, vLLM, ollama, llm-d,
+Kubernetes Kueue, Seldon MLServer, Feast, ModelPack, Fluid, Volcano, MLFlow) mais sans position
+ring (Adopt/Trial/Assess/Hold) énoncée en toutes lettres dans le rapport — seules des répartitions
+de notes de maturité/utilité/recommandation, insuffisantes pour respecter la règle « si tu ne sais
+pas expliquer une entrée, ne la retiens pas ». D'où le statut épuisé malgré ces noms non traités.
+Rotation resserrée sur ThoughtWorks Technology Radar Vol 34, seule édition restant active.
 
 ## InfoQ AI, ML and Data Engineering Trends Report — édition 2025 (paru le 2025-09-24)
 
