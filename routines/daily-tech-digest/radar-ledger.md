@@ -52,6 +52,9 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-09-21 — Measuring collaboration quality with coding agents — Assess
 - 2026-09-23 — Skills as executable onboarding documentation — Assess
 - 2026-09-23 — Toxic flow analysis for AI — Assess
+- 2026-09-25 — LLM evaluation using semantic entropy — Assess
+- 2026-09-25 — Architecture drift reduction with LLMs — Assess
+- 2026-09-25 — Agentic reinforcement learning environments — Assess
 
 Statut : en cours
 
