@@ -55,6 +55,9 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-09-25 — LLM evaluation using semantic entropy — Assess
 - 2026-09-25 — Architecture drift reduction with LLMs — Assess
 - 2026-09-25 — Agentic reinforcement learning environments — Assess
+- 2026-09-26 — Progressive context disclosure — Trial
+- 2026-09-26 — Context graph — Assess
+- 2026-09-26 — MITRE ATLAS — Assess
 
 Statut : en cours
 
