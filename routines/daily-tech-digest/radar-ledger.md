@@ -58,6 +58,9 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-09-26 — Progressive context disclosure — Trial
 - 2026-09-26 — Context graph — Assess
 - 2026-09-26 — MITRE ATLAS — Assess
+- 2026-09-27 — Small language models — Assess
+- 2026-09-27 — Mapping code smells to refactoring techniques — Trial
+- 2026-09-27 — Pixel-streamed development environments — Caution
 
 Statut : en cours
 
