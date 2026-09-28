@@ -61,6 +61,9 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-09-27 — Small language models — Assess
 - 2026-09-27 — Mapping code smells to refactoring techniques — Trial
 - 2026-09-27 — Pixel-streamed development environments — Caution
+- 2026-09-28 — DORA metrics — Adopt
+- 2026-09-28 — Passkeys — Adopt
+- 2026-09-28 — Mutation testing — Trial
 
 Statut : en cours
 
