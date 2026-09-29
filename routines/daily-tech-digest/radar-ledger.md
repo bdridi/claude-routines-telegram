@@ -64,8 +64,12 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-09-28 — DORA metrics — Adopt
 - 2026-09-28 — Passkeys — Adopt
 - 2026-09-28 — Mutation testing — Trial
+- 2026-09-29 — Server-driven UI — Trial
+- 2026-09-29 — Browser-based component testing — Trial
+- 2026-09-29 — HTML Tools — Assess
 
-Statut : en cours
+Statut : en cours (38 entrées traitées sur 41 ; restent Semantic layer, Reverse engineering for
+design system, Temporal fakes — 3 entrées, aucune de priorité 1)
 
 ## CNCF Technology Landscape Radar — Q3 2025 (paru le 2025-11-11)
 
