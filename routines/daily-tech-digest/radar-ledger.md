@@ -67,9 +67,16 @@ Statut : en cours | épuisé le AAAA-MM-JJ
 - 2026-09-29 — Server-driven UI — Trial
 - 2026-09-29 — Browser-based component testing — Trial
 - 2026-09-29 — HTML Tools — Assess
+- 2026-09-30 — Semantic layer — Trial
+- 2026-09-30 — Reverse engineering for design system — Assess
+- 2026-09-30 — Temporal fakes — Assess
 
-Statut : en cours (38 entrées traitées sur 41 ; restent Semantic layer, Reverse engineering for
-design system, Temporal fakes — 3 entrées, aucune de priorité 1)
+Statut : épuisé le 2026-09-30 — les 41 entrées intéressantes du quadrant Techniques sont désormais
+toutes traitées. Les quatre radars de la rotation (ThoughtWorks, CNCF, InfoQ Trends, Gartner Hype
+Cycle) sont donc tous épuisés à cette date. Vérifié qu'aucune nouvelle édition ThoughtWorks n'est
+parue (thoughtworks.com/radar toujours sur Vol 34, avril 2026) : la section 📡 sera absente des
+prochains digests jusqu'à la parution d'une nouvelle édition sur l'un des quatre radars, ou l'ajout
+d'une nouvelle source de radar dans sources.md.
 
 ## CNCF Technology Landscape Radar — Q3 2025 (paru le 2025-11-11)
 
