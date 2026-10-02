@@ -156,3 +156,16 @@ task automation agents, Process-specific AI assistants, AI-augmented decision su
 AI / AI-powered search / Predictive analytics) avaient déjà été écartées les 2026-09-10 et
 2026-09-14 pour position contradictoire selon les sources ou absence de lien avec agents/harness,
 non re-vérifiées différemment le 2026-09-18. Rotation resserrée sur les trois radars restants.
+
+## CNCF Technology Radar Report — Q1 2026 (paru le 2026-03-23)
+
+Édition découverte le 2026-10-02, plus récente que la Q3/Q4 2025 déjà exhaustée ci-dessus et jusque-là
+passée inaperçue. Porte sur Workflow Automation, Application Delivery et Security & Compliance
+Management (Helm, Backstage, kro, GitHub Actions, Armada, Buildpacks, Jenkins, ArgoCD, Keycloak, OPA,
+cert-manager — rings adopt/trial/assess confirmés par lecture du PDF). Aucun lien avec agents, harness,
+RAG ou orchestration LLM : c'est de l'écosystème cloud-native générique (CI/CD, delivery, IAM), le cas
+que sources.md demande explicitement d'ignorer dans l'exploitation des radars.
+
+Statut : non exploitable — hors critère de sélection (pas de priorité 1/2/3 applicable), pas de
+rotation prévue sur cette édition. Section ouverte pour mémoire, afin de ne pas la redécouvrir et
+la réévaluer chaque jour.
