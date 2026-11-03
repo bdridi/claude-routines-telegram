@@ -157,6 +157,27 @@ AI / AI-powered search / Predictive analytics) avaient déjà été écartées l
 2026-09-14 pour position contradictoire selon les sources ou absence de lien avec agents/harness,
 non re-vérifiées différemment le 2026-09-18. Rotation resserrée sur les trois radars restants.
 
+## InfoQ AI, ML and Data Engineering Trends Report — édition 2026 (paru le 2026-10-30)
+
+Nouvelle édition détectée le 2026-11-03 (infoq.com/articles/ai-ml-data-engineering-trends-2026,
+auteurs Srini Penchikala, Chip Huyen, Daniel Dominguez, Hien Luu, Arthur Casals), succédant à
+l'édition 2025 ci-dessus (épuisée). Annoncée dans le digest du 2026-11-03 conformément au
+protocole de sources.md ; aucune entrée traitée ce jour-là, l'exploitation (2-3 entrées/jour)
+commence le 2026-11-04. Catégories repérées pour mémoire (texte de l'article, position non lue
+sur le graphique lui-même) : Innovators — Agent-to-Agent Protocols, Inference Engines (vLLM,
+SGLang, llm-d), Harness Engineering, Spec-Driven Development/AI Software Factories, Physical AI,
+Agent Security and Governance, Voice Agents, Specialized Decision Models, AI Gateways, GraphRAG,
+LLMOps/GenAIOps, Brain-Computer Interfaces ; Early Adopters — AI Agents/Agent Orchestration, AI
+Evaluations, Agentic Coding/Autonomous Software Engineering, Agent Observability, Inference
+Optimization and Model Routing, SLMs, Reasoning Models, Explainable AI, VR/AR/MR/XR, Cognitive
+Services, Edge AI Inference, MCP, Multi-modal AI, AI DevOps/AI-powered SRE ; Early Majority —
+Context Engineering, GenAI/LLMs, RAG, Knowledge Graphs, MLOps, Vector Databases, Data Contracts,
+Data Observability, Graph Data Analytics, Synthetic Data Generation, Open Table Formats ; Late
+Majority — AutoML, Image Recognition, Digital Assistants, Data Mesh, Stream Processing and
+Analytics, Recommendation Engines, Lakehouses, Spark.
+
+Statut : en cours.
+
 ## CNCF Technology Radar Report — Q1 2026 (paru le 2026-03-23)
 
 Édition découverte le 2026-10-02, plus récente que la Q3/Q4 2025 déjà exhaustée ci-dessus et jusque-là
