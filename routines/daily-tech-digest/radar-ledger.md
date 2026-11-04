@@ -176,6 +176,10 @@ Data Observability, Graph Data Analytics, Synthetic Data Generation, Open Table 
 Majority — AutoML, Image Recognition, Digital Assistants, Data Mesh, Stream Processing and
 Analytics, Recommendation Engines, Lakehouses, Spark.
 
+- 2026-11-04 — Agent-to-Agent Protocols — Innovators
+- 2026-11-04 — Harness Engineering — Innovators
+- 2026-11-04 — Agentic Coding / Autonomous Software Engineering — Early Adopters (depuis Innovators)
+
 Statut : en cours.
 
 ## CNCF Technology Radar Report — Q1 2026 (paru le 2026-03-23)
