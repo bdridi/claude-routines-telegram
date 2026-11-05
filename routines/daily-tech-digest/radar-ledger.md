@@ -179,8 +179,14 @@ Analytics, Recommendation Engines, Lakehouses, Spark.
 - 2026-11-04 — Agent-to-Agent Protocols — Innovators
 - 2026-11-04 — Harness Engineering — Innovators
 - 2026-11-04 — Agentic Coding / Autonomous Software Engineering — Early Adopters (depuis Innovators)
+- 2026-11-05 — AI Agents / Agent Orchestration — Early Adopters
+- 2026-11-05 — Context Engineering — Early Majority
+- 2026-11-05 — Spec-Driven Development / AI Software Factories — Innovators
 
-Statut : en cours.
+Statut : en cours. Agent Security and Governance, Agent Observability, MCP, GraphRAG, AI Gateways,
+Voice Agents et RAG repérés dans les listes de catégories de l'article mais sans développement
+textuel suffisant pour les expliquer (règle « si tu ne sais pas expliquer une entrée, ne la retiens
+pas ») — à revérifier si l'article est mis à jour ou si une autre source vient les expliquer.
 
 ## CNCF Technology Radar Report — Q1 2026 (paru le 2026-03-23)
 
