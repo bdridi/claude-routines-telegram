@@ -182,11 +182,16 @@ Analytics, Recommendation Engines, Lakehouses, Spark.
 - 2026-11-05 — AI Agents / Agent Orchestration — Early Adopters
 - 2026-11-05 — Context Engineering — Early Majority
 - 2026-11-05 — Spec-Driven Development / AI Software Factories — Innovators
+- 2026-11-06 — AI Evaluations for Models and Agents — Early Adopters
+- 2026-11-06 — Inference Engines (vLLM, SGLang, llm-d) — Innovators
 
 Statut : en cours. Agent Security and Governance, Agent Observability, MCP, GraphRAG, AI Gateways,
-Voice Agents et RAG repérés dans les listes de catégories de l'article mais sans développement
-textuel suffisant pour les expliquer (règle « si tu ne sais pas expliquer une entrée, ne la retiens
-pas ») — à revérifier si l'article est mis à jour ou si une autre source vient les expliquer.
+Voice Agents et RAG revérifiés le 2026-11-06 et toujours écartés, sans développement textuel
+suffisant pour les expliquer (règle « si tu ne sais pas expliquer une entrée, ne la retiens pas »)
+— à revérifier si l'article est mis à jour ou si une autre source vient les expliquer. « Physical
+AI / Embodied AI » (Innovators) dispose d'un développement textuel suffisant mais reste hors
+priorité 1 (pas de lien direct avec agents/harness/RAG/orchestration) ; à retenir un jour où les
+candidats de priorité 1 manquent.
 
 ## CNCF Technology Radar Report — Q1 2026 (paru le 2026-03-23)
 
