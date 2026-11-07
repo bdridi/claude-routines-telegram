@@ -184,14 +184,20 @@ Analytics, Recommendation Engines, Lakehouses, Spark.
 - 2026-11-05 — Spec-Driven Development / AI Software Factories — Innovators
 - 2026-11-06 — AI Evaluations for Models and Agents — Early Adopters
 - 2026-11-06 — Inference Engines (vLLM, SGLang, llm-d) — Innovators
+- 2026-11-07 — Physical AI / Embodied AI — Innovators
 
-Statut : en cours. Agent Security and Governance, Agent Observability, MCP, GraphRAG, AI Gateways,
-Voice Agents et RAG revérifiés le 2026-11-06 et toujours écartés, sans développement textuel
-suffisant pour les expliquer (règle « si tu ne sais pas expliquer une entrée, ne la retiens pas »)
-— à revérifier si l'article est mis à jour ou si une autre source vient les expliquer. « Physical
-AI / Embodied AI » (Innovators) dispose d'un développement textuel suffisant mais reste hors
-priorité 1 (pas de lien direct avec agents/harness/RAG/orchestration) ; à retenir un jour où les
-candidats de priorité 1 manquent.
+Statut : épuisé le 2026-11-07. Agent Security and Governance, Agent Observability, MCP, GraphRAG,
+AI Gateways, Voice Agents et RAG revérifiés une nouvelle fois ce jour-là (relecture complète du
+texte de l'article + recherches complémentaires ciblées par entrée) et toujours écartés : chacune
+reste une simple mention dans une énumération, sans phrase qui justifie son niveau — aucune source
+complémentaire trouvée n'explique leur position dans ce rapport précis. « Physical AI / Embodied
+AI » (Innovators), seule entrée restante avec un développement textuel suffisant malgré sa
+priorité secondaire, a donc été utilisée comme filet de sécurité le 2026-11-07. Il ne reste plus
+aucune entrée exploitable dans cette édition sans développement supplémentaire de l'article ou
+sans source complémentaire qui explique spécifiquement l'une des 7 entrées écartées. Rotation
+resserrée sur les radars restants (aucun actif à ce jour : ThoughtWorks, CNCF Q3 2025, InfoQ 2025
+et Gartner déjà épuisés — cf. sections ci-dessus) ; à revérifier si l'article InfoQ 2026 est mis à
+jour ou si une nouvelle édition paraît sur l'un des quatre radars de la rotation.
 
 ## CNCF Technology Radar Report — Q1 2026 (paru le 2026-03-23)
 
